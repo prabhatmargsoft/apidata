@@ -3,7 +3,7 @@ const http = require('http');
 const app = require('./app')
 const mongodb = require('mongoose');
 const { connected } = require('process');
-const socketInit = require('./api/soket'); 
+const socketInit = require('./api/soket/soket'); 
 const server = http.createServer(app);
 
 
